@@ -1,0 +1,1 @@
+This directory contains solved solution to the interview "0x00. Pascal's Triangle" task from ALX
