@@ -14,5 +14,5 @@ def canUnlockAll(boxes):
     while keys:
         box = keys.pop()
         boxesOpened.add(box)
-        keys.update(set(boxes[box]) - boxesOpened)
+        keys.update(set(boxes[box]) & set(range(n)) - boxesOpened)
     return len(boxesOpened) == n
