@@ -36,6 +36,10 @@ try:
             for code in sorted(status_code_count.keys()):
                 print(f"{code}: {status_code_count[code]}")
 
+    print("File size:", total_file_size)
+    for code in sorted(status_code_count.keys()):
+        print(f"{code}: {status_code_count[code]}")
+
 except KeyboardInterrupt:
     print("File size:", total_file_size)
     for code in sorted(status_code_count.keys()):
