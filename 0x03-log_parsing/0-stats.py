@@ -8,7 +8,8 @@ import re
 status_code_count = {}
 total_file_size = 0
 lines_count = 0
-regex = r'^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}) - \[(.*?)\] "GET \/projects\/260 HTTP\/1\.1" (\d{3}) (\d+)$'
+regex = r'^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}) - \[(.*?)\] ' \
+        r'"GET \/projects\/260 HTTP\/1\.1" (\d{3}) (\d+)$'
 
 try:
     for line in sys.stdin:
