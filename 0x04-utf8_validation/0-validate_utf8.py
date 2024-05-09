@@ -2,8 +2,9 @@
 """ 0. UTF-8 Validation
 """
 
+from typing import List
 
-def validUTF8(data):
+def validUTF8(data: List[int]) -> bool:
     """ method that determines if a given data set represents a
         valid UTF-8 encoding
     """
