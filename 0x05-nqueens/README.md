@@ -1,0 +1,1 @@
+This directory contains solution for the  interview task "0x05. N Queens" from ALX.
