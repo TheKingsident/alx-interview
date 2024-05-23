@@ -1,0 +1,1 @@
+This directory contains assignment files for the "0x06. Star Wars API" task from ALX
