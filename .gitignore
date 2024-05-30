@@ -1,3 +1,9 @@
 0x01-lockboxes/__pycache__/
 0x02-minimum_operations/__pycache__/
 0x04-utf8_validation/__pycache__/
+0x06-starwars_api/node_modules/
+0x06-starwars_api/package.json
+0x06-starwars_api/.eslintrc.js
+0x06-starwars_api/.eslintrc.json
+0x06-starwars_api/package-lock.json
+0x07-rotate_2d_matrix/__pycache__/
