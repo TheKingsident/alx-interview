@@ -15,7 +15,7 @@ def makeChange(coins, total):
       The fewest number of coins needed to make the total, or -1 if it's impossible.
     """
     coins.sort(reverse=True)
-    
+
     count = 0
     for coin in coins:
         if total == 0:
@@ -27,5 +27,5 @@ def makeChange(coins, total):
 
     if total != 0:
         return -1
-    
+
     return count
