@@ -5,14 +5,16 @@
 
 def makeChange(coins, total):
     """
-    This function finds the fewest number of coins needed to make a certain amount.
+    This function finds the fewest number of coins needed to make a certain
+    amount.
 
     Args:
       coins: A list of coin values (integers greater than 0).
       total: The total amount to reach (integer).
 
     Returns:
-      The fewest number of coins needed to make the total, or -1 if it's impossible.
+      The fewest number of coins needed to make the total, or -1 if it's
+      impossible.
     """
     coins.sort(reverse=True)
 
