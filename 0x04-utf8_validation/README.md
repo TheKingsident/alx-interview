@@ -1,1 +1,0 @@
-This directory contains solved solution to the interview "0x04. UTF-8 Validation" task from ALX
