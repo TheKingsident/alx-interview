@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+'''Prime Game'''
+
 
 def eratosthenes(max_n):
     '''Seiv of Eratosthenes algorithm to find all primes up to max_n'''
@@ -19,6 +21,7 @@ def eratosthenes(max_n):
 
 
 def isWinner(x, nums):
+    '''Returns who the winner of the game is'''
     max_n = max(nums)
     primes, is_prime = eratosthenes(max_n)
 
